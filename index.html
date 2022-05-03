@@ -1,19 +1,26 @@
 <html>
   <head>
-    <title>Calculando area</title>
+    <!--contenedor Interno-->
+    <title>Area</title>
+    <!--titulo-->
     <meta charset="UTF-8" />
+    <!--Carac. en español-->
   </head>
 
   <body>
-    <h1>Calculando el area de un rectangulo</h1>
+    <!--Dentro de la pag-->
+    <h1>Calculadora de Area</h1>
     <h3>Ingresar dato base</h3>
-    <input type="number" id="datoBase" min="1" />
+    <input type="number" id="base" min="1" /> <br />
+    <!--Defino el input, con su tipo, id y dato minimo a ingresar-->
 
     <h3>Ingresar dato altura</h3>
-    <input type="number" id="datoAltura" min="1" />
-    <br />
-    <button id="btnArea">Calcular area</button>
+    <input type="number" id="altura" min="1" /><br />
+    <!--Defino el input, con su tipo, id y dato minimo a ingresar-->
 
-    <script src="areaRectangulo/index.ts"></script>
+    <button id="buttonArea">Calcular area</button>
+    <!--defino boton con su id-->
+
+    <script src="src/index.ts"></script>
   </body>
 </html>
